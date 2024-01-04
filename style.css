@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.w1{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #ccc;
+}
+
+.w1 video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin-top: 10%;
+}
+@media(min-aspect-ratio:16/9) {
+    .w1 video{
+        width: 100%;
+        height: auto;
+    }
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: #3498;
+}
+.navbar ul{
+ float: right;
+ margin-right: 15px;
+ padding: 0px 420px;
+ 
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 5px;
+    display: inline-block;
+    line-height:100px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+.navbar ul li a:hover{
+      background-color: blue;
+      color: #fff;
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-left:2%;
+    top:1%;
+}
+h1{
+    position: absolute;
+    margin-left:6%;
+    margin-top:2%;
+    font-size:37px;
+    color: rgba(32,34,76);
+    font-family: 'poppnes';
+}
+.apply{
+position: absolute;
+margin-left: 72%;
+margin-top:2%;
+top: 1%;
+text-decoration: none;
+border-bottom: 2px solid silver;
+border: 2px solid;
+padding: 15px 25px;
+border-radius:5px;
+color: rgba(221,45,87);
+}
+.apply:hover{
+    background:rgba(21,46,87) ;
+    color: #fff;
+}
+.bx-search-alt-2{
+    position: absolute;
+    margin-left:85%;
+    margin-top:3%;
+    top: 1%;
+    font-size: 35px;
+    color: black;
+}
+.bx-search-alt-2:hover{
+color: #fff;
+
+}
+.subscribe{
+    position:absolute;
+    margin-left: 30%;
+    margin-top:40%;
+    text-decoration: none;
+    border: 2px solid rgba(2,17,32);
+    padding: 8px 25px;
+    cursor: pointer;
+    padding-right:50px;
+    padding-left: 50px;
+    border-radius: 50px;
+}
+.subscribe:hover{
+    background:rgba(2,17,32);
+    color: #fff;
+}
+.Download{
+    position:absolute;
+    margin-left: 50%;
+    margin-top:40%;
+    text-decoration: none;
+    border: 2px solid gold;
+    color:black;
+    padding: 8px 25px;
+    cursor: pointer;
+    padding-right:50px;
+    padding-left: 50px;
+    border-radius: 50px;
+}
+.Download:hover{
+    background-color:red;
+     color: #fff;
+}
